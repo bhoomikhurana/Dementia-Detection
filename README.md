@@ -1,34 +1,37 @@
 
 # Alzheimer disease detection project
 
-# To install the frontend dependencies 
+# Step 1
 ```
 cd app/
 npm i
 ```
-# To install the backend dependencies
+# Step 3
 ```
 cd backend/
 pip install -r requirements.txt
 ```
 
-# Run the react website 
+# Step 4
 ```
-npm run start
-```
-
-# Build the react website
-```
+cd app/
 npm run build
 ```
-# Steps to perform before running FastAPI server
-create two directories in the backend folder
+
+# Step 5
 ```
+cd app/
+npm run start
+```
+# Step 6
+```
+cd backend/
 mkdir static
 mkdir feedbacks
 ```
 
-# Start the FastAPI server
+# Step 7
+Start the FastAPI server
 ```
 python main.py
 ```
