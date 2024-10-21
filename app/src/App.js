@@ -1,11 +1,11 @@
 // App.js
-import React, { useState } from 'react';
-import './App.css';
-import Navbar from './components/Navbar';
-import Main from './components/Main';
-import Feature from './components/Feature';
-import Contact from './components/Contact';
-import LoginPage from './components/LoginPage';
+import React, { useState } from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main/Main";
+import Feature from "./components/Feature";
+import Contact from "./components/Contact";
+import LoginPage from "./components/LoginPage";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
